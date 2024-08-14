@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet" href="calendario.css">
+</head>
+<body>
+    <div id="calendar">
+        <div class="month">
+            <button id="prev">Anterior</button>
+            <h1 id="month-name">Agosto 2024</h1>
+            <button id="next">Próximo</button>
+        </div>
+        <div class="weekdays">
+            <div>Dom</div>
+            <div>Seg</div>
+            <div>Ter</div>
+            <div>Qua</div>
+            <div>Qui</div>
+            <div>Sex</div>
+            <div>Sáb</div>
+        </div>
+        <div class="days">
+            <!-- Dias serão gerados aqui -->
+        </div>
+    </div>
+    <div id="reminder-form" style="display: none;">
+        <h2>Criar Lembrete</h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="reminder">Lembrete:</label>
+        <input type="text" id="reminder" required>
+        <button onclick="submitReminder()">Enviar</button>
+    </div>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("YOUR_USER_ID");
+        })();
+    </script>
+    <script src="calendario.js"></script>
+</body>
+</html>

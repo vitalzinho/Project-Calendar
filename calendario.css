@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #000000;
+}
+
+#calendar {
+    width: 300px;
+    border: 3px solid #1b18c4;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+} 
+.days div {
+    border: 1px solid #ccc;
+    margin: -1px 0 0 -1px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.days .prev-month, .days .next-month {
+    color: #aaa;
+    background-color: #f0f0f0;
+}
+
+.days .holiday {
+    background-color: #ffeb3b;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.days .today {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+.days small {
+    font-size: 0.7em;
+    color: #555;
+}
+.days div {
+    border: 1px solid #ccc;
+    margin: -1px 0 0 -1px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.days .prev-month, .days .next-month {
+    color: #aaa;
+    background-color: #f0f0f0;
+}
+
+.days .holiday {
+    background-color: #ffeb3b;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.days .today {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+.days small {
+    font-size: 0.7em;
+    color: #555;
+}
+.days div {
+    border: 1px solid #ccc;
+    margin: -1px 0 0 -1px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.days .prev-month, .days .next-month {
+    color: #aaa;
+    background-color: #f0f0f0;
+}
+
+.days .holiday {
+    background-color: #ffeb3b;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.days .today {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+.days small {
+    font-size: 0.7em;
+    color: #555;
+}
+.days div {
+    border: 1px solid #ccc;
+    margin: -1px 0 0 -1px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.days .prev-month, .days .next-month {
+    color: #aaa;
+    background-color: #f0f0f0;
+}
+
+.days .holiday {
+    background-color: #ffeb3b;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.days small {
+    font-size: 0.7em;
+    color: #555;
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weekdays, .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weekdays div, .days div {
+    width: 14.28%;
+    text-align: center;
+    padding: 15px 0;
+    width: 40px;
+}
+
+.days div {
+    border: 1px solid #000000;
+    margin: -1px 0 0 -1px;
+}
+.days div {
+    border: 1px solid #ccc;
+    margin: -1px 0 0 -1px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days div {
+    border: 1px solid #ccc;
+    margin: -1px 0 0 -1px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days .prev-month, .days .next-month {
+    color: #aaa;
+    background-color: #f0f0f0;
+}
+
+.days .holiday {
+    background-color: #ffffff;
+    color: #d32f2f;
+    font-weight: bold;
+}
+.days .prev-month, .days .next-month {
+    color: #aaa;
+    background-color: #f0f0f0;
+}
